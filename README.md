@@ -1,4 +1,5 @@
-# End-to-End Quant Research Experiment
+# End-to-End Time Series Research Experiment
+
 
 
 1. Data collection (equities via Yahoo Finance / yfinance)
