@@ -1,0 +1,55 @@
+experiment_name: etsformer_full_features
+data:
+  tickers: ["SPY"]
+  start: "2010-01-01"
+  end: null  # for the latest data, set to null
+  cache: true
+features:
+  sma_windows: [5, 10, 20, 50]
+  rsi_window: 14
+  volatility_window: 20
+model:
+  type: etsformer   # lstm or transformer or etsformer
+  input_size: null
+  hidden_size: 64
+  num_layers: 2
+  dropout: 0.1
+  lr: 0.001
+  epochs: 8
+  batch_size: 128
+  lookback: 60
+  target: next_return
+  transformer:
+    d_model: 64
+    n_heads: 4
+    n_layers: 2
+    dim_feedforward: 128
+    dropout: 0.1
+  etsformer:
+    time_features: 35
+    model_dim: 128
+    layers: 2
+    heads: 4
+    K: 4
+    dropout: 0.2
+walkforward:
+  min_train_size: 800
+  test_window: 120         # should be greater than the lookback
+  max_folds: null
+  scaler: standard
+backtest:
+  initial_capital: 100000
+  cost_bps: 5              # per position change (round trip approx)
+  risk_free_rate: 0.02     # annualized for Sharpe/Sortino adjustments
+  position_type: long_only # long_only for model & SMA baseline
+  signal:
+    method: vol_adj        # raw | vol_adj
+    raw_threshold_bps: 0   # used if method=raw (in basis points, e.g. 5 = 0.05%)
+    vol_window: 20         # realized vol window for vol_adj
+    vol_multiplier: 0.3    # enter if predicted_return > vol_multiplier * realized_vol
+report:
+  output_dir: reports
+  save_plots: true
+  save_csv: true
+  save_json: true
+seed: 42

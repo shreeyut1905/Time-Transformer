@@ -1,0 +1,213 @@
+[2025-09-29 23:51:07] WARNING - Adjusted walk-forward windows due to limited data: train 500 -> 225, test 60 -> 195, total_len=451
+[2025-09-29 23:51:13] INFO - Fold 1 | train 225 | test 195
+[2025-09-29 23:51:14] INFO - Fold 2 | train 420 | test 31
+[2025-09-29 23:51:14] INFO - Saved predictions to data\artifacts\walkforward\predictions.csv
+[2025-09-30 00:03:36] WARNING - Adjusted walk-forward windows due to limited data: train 500 -> 225, test 60 -> 195, total_len=451
+[2025-09-30 00:03:40] INFO - Fold 1 | train 225 | test 195 | RMSE 0.009709 | MAE 0.007704 | DirAcc 0.463
+[2025-09-30 00:03:41] INFO - Fold 2 | train 420 | test 31 | RMSE 0.003510 | MAE 0.003510 | DirAcc 0.000
+[2025-09-30 00:03:41] INFO - Saved predictions to data\artifacts\walkforward\predictions.csv
+[2025-09-30 00:03:41] INFO - Aggregate regression metrics: {'mse_mean': 5.328655823660737e-05, 'mse_std': 5.793929873915187e-05, 'rmse_mean': 0.006609071715565308, 'rmse_std': 0.0043833159354812684, 'mae_mean': 0.005606986007552701, 'mae_std': 0.002966152736549595, 'r2_mean': -0.5609929390985653, 'r2_std': nan, 'corr_pearson_mean': 0.022475726930361685, 'corr_pearson_std': nan, 'corr_spearman_mean': 0.03448561429754495, 'corr_spearman_std': nan, 'directional_accuracy_mean': 0.23170731707317074, 'directional_accuracy_std': 0.32768363030596104, 'total_observations': 166, 'folds': 2}
+[2025-09-30 00:08:49] WARNING - Adjusted walk-forward windows due to limited data: train 500 -> 225, test 60 -> 165, total_len=451
+[2025-09-30 00:08:53] INFO - Fold 1 | train 225 | test 165 | RMSE 0.015494 | MAE 0.013234 | DirAcc 0.462
+[2025-09-30 00:08:53] INFO - Fold 2 | train 390 | test 61 | RMSE 0.000833 | MAE 0.000833 | DirAcc 1.000
+[2025-09-30 00:08:53] INFO - Saved predictions to data\artifacts\walkforward\predictions.csv
+[2025-09-30 00:08:53] INFO - Aggregate regression metrics: {'mse_mean': 0.00012038378585158222, 'mse_std': 0.00016926772367627303, 'rmse_mean': 0.008163525450334592, 'rmse_std': 0.0103673176929543, 'mae_mean': 0.007033269250929144, 'mae_std': 0.008768894046798847, 'r2_mean': -3.7569513853663468, 'r2_std': nan, 'corr_pearson_mean': 0.20681908287447487, 'corr_pearson_std': nan, 'corr_spearman_mean': 0.19826871241965582, 'corr_spearman_std': nan, 'directional_accuracy_mean': 0.7307692307692308, 'directional_accuracy_std': 0.3807498052542948, 'total_observations': 106, 'folds': 2}
+[2025-09-30 00:18:44] INFO - Fold 1 | train 800 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:18:51] INFO - Fold 2 | train 860 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:18:58] INFO - Fold 3 | train 920 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:19:06] INFO - Fold 4 | train 980 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:19:14] INFO - Fold 5 | train 1040 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:19:23] INFO - Fold 6 | train 1100 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:19:33] INFO - Fold 7 | train 1160 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:19:43] INFO - Fold 8 | train 1220 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:19:54] INFO - Fold 9 | train 1280 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:20:05] INFO - Fold 10 | train 1340 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:20:17] INFO - Fold 11 | train 1400 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:20:30] INFO - Fold 12 | train 1460 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:20:43] INFO - Fold 13 | train 1520 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:20:57] INFO - Fold 14 | train 1580 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:21:12] INFO - Fold 15 | train 1640 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:21:26] INFO - Fold 16 | train 1700 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:21:42] INFO - Fold 17 | train 1760 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:21:58] INFO - Fold 18 | train 1820 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:22:15] INFO - Fold 19 | train 1880 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:22:33] INFO - Fold 20 | train 1940 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:22:55] INFO - Fold 21 | train 2000 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:23:19] INFO - Fold 22 | train 2060 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:23:41] INFO - Fold 23 | train 2120 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:24:00] INFO - Fold 24 | train 2180 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:24:20] INFO - Fold 25 | train 2240 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:24:43] INFO - Fold 26 | train 2300 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:25:05] INFO - Fold 27 | train 2360 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:25:27] INFO - Fold 28 | train 2420 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:25:50] INFO - Fold 29 | train 2480 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:26:14] INFO - Fold 30 | train 2540 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:26:38] INFO - Fold 31 | train 2600 | test 60 | RMSE nan | MAE nan | DirAcc nan
+[2025-09-30 00:31:26] INFO - Fold 1 | train 800 | test 120 | RMSE 0.007658 | MAE 0.006162 | DirAcc 0.450
+[2025-09-30 00:31:28] INFO - Fold 2 | train 920 | test 120 | RMSE 0.008493 | MAE 0.006648 | DirAcc 0.500
+[2025-09-30 00:31:29] INFO - Fold 3 | train 1040 | test 120 | RMSE 0.009525 | MAE 0.006910 | DirAcc 0.550
+[2025-09-30 00:31:31] INFO - Fold 4 | train 1160 | test 120 | RMSE 0.007948 | MAE 0.006707 | DirAcc 0.583
+[2025-09-30 00:31:33] INFO - Fold 5 | train 1280 | test 120 | RMSE 0.013271 | MAE 0.009835 | DirAcc 0.617
+[2025-09-30 00:31:36] INFO - Fold 6 | train 1400 | test 120 | RMSE 0.012242 | MAE 0.009614 | DirAcc 0.567
+[2025-09-30 00:31:38] INFO - Fold 7 | train 1520 | test 120 | RMSE 0.009306 | MAE 0.006752 | DirAcc 0.500
+[2025-09-30 00:31:41] INFO - Fold 8 | train 1640 | test 120 | RMSE 0.006993 | MAE 0.005923 | DirAcc 0.559
+[2025-09-30 00:31:44] INFO - Fold 9 | train 1760 | test 120 | RMSE 0.007789 | MAE 0.006592 | DirAcc 0.467
+[2025-09-30 00:31:47] INFO - Fold 10 | train 1880 | test 120 | RMSE 0.011510 | MAE 0.007463 | DirAcc 0.617
+[2025-09-30 00:31:50] INFO - Fold 11 | train 2000 | test 120 | RMSE 0.006590 | MAE 0.005259 | DirAcc 0.550
+[2025-09-30 00:31:54] INFO - Fold 12 | train 2120 | test 120 | RMSE 0.015646 | MAE 0.011930 | DirAcc 0.467
+[2025-09-30 00:31:57] INFO - Fold 13 | train 2240 | test 120 | RMSE 0.010717 | MAE 0.007935 | DirAcc 0.517
+[2025-09-30 00:32:01] INFO - Fold 14 | train 2360 | test 120 | RMSE 0.005048 | MAE 0.004050 | DirAcc 0.383
+[2025-09-30 00:32:05] INFO - Fold 15 | train 2480 | test 120 | RMSE 0.025382 | MAE 0.021232 | DirAcc 0.483
+[2025-09-30 00:32:09] INFO - Fold 16 | train 2600 | test 120 | RMSE 0.010596 | MAE 0.008036 | DirAcc 0.517
+[2025-09-30 00:32:13] INFO - Fold 17 | train 2720 | test 120 | RMSE 0.009488 | MAE 0.007954 | DirAcc 0.567
+[2025-09-30 00:32:17] INFO - Fold 18 | train 2840 | test 120 | RMSE 0.010535 | MAE 0.008687 | DirAcc 0.567
+[2025-09-30 00:32:22] INFO - Fold 19 | train 2960 | test 120 | RMSE 0.017071 | MAE 0.013535 | DirAcc 0.600
+[2025-09-30 00:32:27] INFO - Fold 20 | train 3080 | test 120 | RMSE 0.016959 | MAE 0.013565 | DirAcc 0.500
+[2025-09-30 00:32:32] INFO - Fold 21 | train 3200 | test 120 | RMSE 0.012098 | MAE 0.010371 | DirAcc 0.533
+[2025-09-30 00:32:37] INFO - Fold 22 | train 3320 | test 120 | RMSE 0.010188 | MAE 0.008602 | DirAcc 0.483
+[2025-09-30 00:32:42] INFO - Fold 23 | train 3440 | test 120 | RMSE 0.007698 | MAE 0.006071 | DirAcc 0.550
+[2025-09-30 00:32:47] INFO - Fold 24 | train 3560 | test 120 | RMSE 0.010035 | MAE 0.007689 | DirAcc 0.567
+[2025-09-30 00:32:53] INFO - Fold 25 | train 3680 | test 120 | RMSE 0.020800 | MAE 0.012945 | DirAcc 0.617
+[2025-09-30 00:32:59] INFO - Fold 26 | train 3800 | test 109 | RMSE 0.009264 | MAE 0.007481 | DirAcc 0.469
+[2025-09-30 00:32:59] INFO - Saved predictions to data\artifacts\walkforward\predictions.csv
+[2025-09-30 00:32:59] INFO - Aggregate regression metrics: {'mse_mean': 0.00014742097841867607, 'mse_std': 0.00013742248610616894, 'rmse_mean': 0.011263385172491359, 'rmse_std': 0.0046237882942203315, 'mae_mean': 0.00876709745794005, 'mae_std': 0.003561635278281817, 'r2_mean': -0.5280592929708511, 'r2_std': 0.5663103933361708, 'corr_pearson_mean': 0.045923647114286245, 'corr_pearson_std': 0.14644881742335053, 'corr_spearman_mean': 0.025993512454479964, 'corr_spearman_std': 0.1530362857942107, 'directional_accuracy_mean': 0.5299503765000133, 'directional_accuracy_std': 0.05822187664094283, 'total_observations': 1549, 'folds': 26}
+[2025-09-30 00:42:27] INFO - Fold 1 | train 800 | test 120 | RMSE 0.013962 | MAE 0.011741 | DirAcc 0.567
+[2025-09-30 00:42:28] INFO - Fold 2 | train 920 | test 120 | RMSE 0.009225 | MAE 0.007297 | DirAcc 0.500
+[2025-09-30 00:42:30] INFO - Fold 3 | train 1040 | test 120 | RMSE 0.011096 | MAE 0.007908 | DirAcc 0.467
+[2025-09-30 00:42:31] INFO - Fold 4 | train 1160 | test 120 | RMSE 0.009510 | MAE 0.007705 | DirAcc 0.517
+[2025-09-30 00:42:34] INFO - Fold 5 | train 1280 | test 120 | RMSE 0.016853 | MAE 0.012407 | DirAcc 0.517
+[2025-09-30 00:42:36] INFO - Fold 6 | train 1400 | test 120 | RMSE 0.014307 | MAE 0.010428 | DirAcc 0.617
+[2025-09-30 00:42:38] INFO - Fold 7 | train 1520 | test 120 | RMSE 0.010866 | MAE 0.007013 | DirAcc 0.567
+[2025-09-30 00:42:41] INFO - Fold 8 | train 1640 | test 120 | RMSE 0.005020 | MAE 0.003900 | DirAcc 0.475
+[2025-09-30 00:42:44] INFO - Fold 9 | train 1760 | test 120 | RMSE 0.007169 | MAE 0.005286 | DirAcc 0.550
+[2025-09-30 00:42:47] INFO - Fold 10 | train 1880 | test 120 | RMSE 0.014405 | MAE 0.011915 | DirAcc 0.400
+[2025-09-30 00:42:50] INFO - Fold 11 | train 2000 | test 120 | RMSE 0.005575 | MAE 0.004303 | DirAcc 0.583
+[2025-09-30 00:42:53] INFO - Fold 12 | train 2120 | test 120 | RMSE 0.015262 | MAE 0.011340 | DirAcc 0.450
+[2025-09-30 00:42:57] INFO - Fold 13 | train 2240 | test 120 | RMSE 0.007423 | MAE 0.005715 | DirAcc 0.583
+[2025-09-30 00:43:00] INFO - Fold 14 | train 2360 | test 120 | RMSE 0.005999 | MAE 0.004976 | DirAcc 0.317
+[2025-09-30 00:43:04] INFO - Fold 15 | train 2480 | test 120 | RMSE 0.018323 | MAE 0.013509 | DirAcc 0.567
+[2025-09-30 00:43:08] INFO - Fold 16 | train 2600 | test 120 | RMSE 0.010688 | MAE 0.007994 | DirAcc 0.483
+[2025-09-30 00:43:12] INFO - Fold 17 | train 2720 | test 120 | RMSE 0.008516 | MAE 0.006849 | DirAcc 0.583
+[2025-09-30 00:43:17] INFO - Fold 18 | train 2840 | test 120 | RMSE 0.009035 | MAE 0.006827 | DirAcc 0.617
+[2025-09-30 00:43:21] INFO - Fold 19 | train 2960 | test 120 | RMSE 0.017035 | MAE 0.013260 | DirAcc 0.450
+[2025-09-30 00:43:26] INFO - Fold 20 | train 3080 | test 120 | RMSE 0.016588 | MAE 0.012998 | DirAcc 0.533
+[2025-09-30 00:43:31] INFO - Fold 21 | train 3200 | test 120 | RMSE 0.012403 | MAE 0.010235 | DirAcc 0.467
+[2025-09-30 00:43:36] INFO - Fold 22 | train 3320 | test 120 | RMSE 0.009040 | MAE 0.007409 | DirAcc 0.533
+[2025-09-30 00:43:41] INFO - Fold 23 | train 3440 | test 120 | RMSE 0.009011 | MAE 0.007377 | DirAcc 0.533
+[2025-09-30 00:43:47] INFO - Fold 24 | train 3560 | test 120 | RMSE 0.017130 | MAE 0.015697 | DirAcc 0.383
+[2025-09-30 00:43:53] INFO - Fold 25 | train 3680 | test 120 | RMSE 0.022104 | MAE 0.013459 | DirAcc 0.483
+[2025-09-30 00:43:58] INFO - Fold 26 | train 3800 | test 109 | RMSE 0.008696 | MAE 0.006843 | DirAcc 0.490
+[2025-09-30 00:43:59] INFO - Saved predictions to data\artifacts\walkforward\predictions.csv
+[2025-09-30 00:43:59] INFO - Aggregate regression metrics: {'mse_mean': 0.0001570547248799786, 'mse_std': 0.00011570819393073597, 'rmse_mean': 0.011740060259902325, 'rmse_std': 0.004471547648498717, 'mae_mean': 0.009015033476741107, 'mae_std': 0.003314263103714241, 'r2_mean': -0.6822757353153647, 'r2_std': 0.7737351192244843, 'corr_pearson_mean': -0.004884646233686948, 'corr_pearson_std': 0.12055274971731832, 'corr_spearman_mean': 0.016575028690596516, 'corr_spearman_std': 0.12983527742226703, 'directional_accuracy_mean': 0.5088861098546329, 'directional_accuracy_std': 0.07251902657633108, 'total_observations': 1549, 'folds': 26}
+[2025-09-30 00:44:12] INFO - Fold 1 | train 800 | test 120 | RMSE 0.008482 | MAE 0.006782 | DirAcc 0.550
+[2025-09-30 00:44:13] INFO - Fold 2 | train 920 | test 120 | RMSE 0.013952 | MAE 0.012163 | DirAcc 0.650
+[2025-09-30 00:44:15] INFO - Fold 3 | train 1040 | test 120 | RMSE 0.010984 | MAE 0.009006 | DirAcc 0.483
+[2025-09-30 00:44:17] INFO - Fold 4 | train 1160 | test 120 | RMSE 0.009572 | MAE 0.007706 | DirAcc 0.450
+[2025-09-30 00:44:19] INFO - Fold 5 | train 1280 | test 120 | RMSE 0.018439 | MAE 0.014325 | DirAcc 0.450
+[2025-09-30 00:44:21] INFO - Fold 6 | train 1400 | test 120 | RMSE 0.016929 | MAE 0.014274 | DirAcc 0.433
+[2025-09-30 00:44:23] INFO - Fold 7 | train 1520 | test 120 | RMSE 0.010476 | MAE 0.007472 | DirAcc 0.550
+[2025-09-30 00:44:26] INFO - Fold 8 | train 1640 | test 120 | RMSE 0.008602 | MAE 0.007450 | DirAcc 0.407
+[2025-09-30 00:44:29] INFO - Fold 9 | train 1760 | test 120 | RMSE 0.004915 | MAE 0.003747 | DirAcc 0.550
+[2025-09-30 00:44:32] INFO - Fold 10 | train 1880 | test 120 | RMSE 0.015087 | MAE 0.012487 | DirAcc 0.433
+[2025-09-30 00:44:35] INFO - Fold 11 | train 2000 | test 120 | RMSE 0.006686 | MAE 0.005282 | DirAcc 0.500
+[2025-09-30 00:44:38] INFO - Fold 12 | train 2120 | test 120 | RMSE 0.017359 | MAE 0.013755 | DirAcc 0.367
+[2025-09-30 00:44:42] INFO - Fold 13 | train 2240 | test 120 | RMSE 0.009873 | MAE 0.008322 | DirAcc 0.467
+[2025-09-30 00:44:46] INFO - Fold 14 | train 2360 | test 120 | RMSE 0.005749 | MAE 0.004761 | DirAcc 0.300
+[2025-09-30 00:44:50] INFO - Fold 15 | train 2480 | test 120 | RMSE 0.021041 | MAE 0.015605 | DirAcc 0.517
+[2025-09-30 00:44:54] INFO - Fold 16 | train 2600 | test 120 | RMSE 0.010330 | MAE 0.007844 | DirAcc 0.433
+[2025-09-30 00:44:58] INFO - Fold 17 | train 2720 | test 120 | RMSE 0.010008 | MAE 0.008281 | DirAcc 0.533
+[2025-09-30 00:45:02] INFO - Fold 18 | train 2840 | test 120 | RMSE 0.016364 | MAE 0.014169 | DirAcc 0.650
+[2025-09-30 00:45:07] INFO - Fold 19 | train 2960 | test 120 | RMSE 0.019939 | MAE 0.016448 | DirAcc 0.467
+[2025-09-30 00:45:12] INFO - Fold 20 | train 3080 | test 120 | RMSE 0.017453 | MAE 0.013703 | DirAcc 0.483
+[2025-09-30 00:45:16] INFO - Fold 21 | train 3200 | test 120 | RMSE 0.011411 | MAE 0.009674 | DirAcc 0.533
+[2025-09-30 00:45:22] INFO - Fold 22 | train 3320 | test 120 | RMSE 0.008994 | MAE 0.007389 | DirAcc 0.417
+[2025-09-30 00:45:27] INFO - Fold 23 | train 3440 | test 120 | RMSE 0.008116 | MAE 0.006153 | DirAcc 0.550
+[2025-09-30 00:45:32] INFO - Fold 24 | train 3560 | test 120 | RMSE 0.009166 | MAE 0.006756 | DirAcc 0.617
+[2025-09-30 00:45:38] INFO - Fold 25 | train 3680 | test 120 | RMSE 0.022379 | MAE 0.014685 | DirAcc 0.483
+[2025-09-30 00:45:44] INFO - Fold 26 | train 3800 | test 109 | RMSE 0.007944 | MAE 0.006391 | DirAcc 0.490
+[2025-09-30 00:45:44] INFO - Saved predictions to data\artifacts\walkforward\predictions.csv
+[2025-09-30 00:45:44] INFO - Aggregate regression metrics: {'mse_mean': 0.00017545943727595304, 'mse_std': 0.00013656600002464982, 'rmse_mean': 0.012317251362914257, 'rmse_std': 0.004969360762139278, 'mae_mean': 0.009793416694239991, 'mae_std': 0.0037992112254379993, 'r2_mean': -0.8378320157431379, 'r2_std': 0.8883248305949235, 'corr_pearson_mean': 0.005821513919659272, 'corr_pearson_std': 0.16488536965085113, 'corr_spearman_mean': 0.014861215373361603, 'corr_spearman_std': 0.1584183138624603, 'directional_accuracy_mean': 0.4908939325404217, 'directional_accuracy_std': 0.08095935894639109, 'total_observations': 1549, 'folds': 26}
+[2025-09-30 18:30:43] INFO - Fold 1 | train 800 | test 120 | RMSE 0.015008 | MAE 0.012392 | DirAcc 0.583
+[2025-09-30 18:30:45] INFO - Fold 2 | train 920 | test 120 | RMSE 0.007175 | MAE 0.005604 | DirAcc 0.567
+[2025-09-30 18:30:47] INFO - Fold 3 | train 1040 | test 120 | RMSE 0.015698 | MAE 0.012255 | DirAcc 0.500
+[2025-09-30 18:30:49] INFO - Fold 4 | train 1160 | test 120 | RMSE 0.009127 | MAE 0.007301 | DirAcc 0.550
+[2025-09-30 18:30:52] INFO - Fold 5 | train 1280 | test 120 | RMSE 0.016961 | MAE 0.011836 | DirAcc 0.483
+[2025-09-30 18:30:54] INFO - Fold 6 | train 1400 | test 120 | RMSE 0.012392 | MAE 0.009382 | DirAcc 0.500
+[2025-09-30 18:30:57] INFO - Fold 7 | train 1520 | test 120 | RMSE 0.016246 | MAE 0.013864 | DirAcc 0.483
+[2025-09-30 18:31:00] INFO - Fold 8 | train 1640 | test 120 | RMSE 0.004356 | MAE 0.003450 | DirAcc 0.458
+[2025-09-30 18:31:03] INFO - Fold 9 | train 1760 | test 120 | RMSE 0.006964 | MAE 0.005515 | DirAcc 0.567
+[2025-09-30 18:31:07] INFO - Fold 10 | train 1880 | test 120 | RMSE 0.014102 | MAE 0.011322 | DirAcc 0.417
+[2025-09-30 18:31:10] INFO - Fold 11 | train 2000 | test 120 | RMSE 0.006976 | MAE 0.005642 | DirAcc 0.433
+[2025-09-30 18:31:14] INFO - Fold 12 | train 2120 | test 120 | RMSE 0.014692 | MAE 0.010492 | DirAcc 0.583
+[2025-09-30 18:31:19] INFO - Fold 13 | train 2240 | test 120 | RMSE 0.009668 | MAE 0.008080 | DirAcc 0.467
+[2025-09-30 18:31:23] INFO - Fold 14 | train 2360 | test 120 | RMSE 0.009839 | MAE 0.008683 | DirAcc 0.317
+[2025-09-30 18:31:27] INFO - Fold 15 | train 2480 | test 120 | RMSE 0.016631 | MAE 0.012015 | DirAcc 0.583
+[2025-09-30 18:31:32] INFO - Fold 16 | train 2600 | test 120 | RMSE 0.011467 | MAE 0.008950 | DirAcc 0.517
+[2025-09-30 18:31:37] INFO - Fold 17 | train 2720 | test 120 | RMSE 0.018543 | MAE 0.017224 | DirAcc 0.433
+[2025-09-30 18:31:42] INFO - Fold 18 | train 2840 | test 120 | RMSE 0.011931 | MAE 0.009979 | DirAcc 0.350
+[2025-09-30 18:31:47] INFO - Fold 19 | train 2960 | test 120 | RMSE 0.015905 | MAE 0.012505 | DirAcc 0.550
+[2025-09-30 18:31:53] INFO - Fold 20 | train 3080 | test 120 | RMSE 0.022374 | MAE 0.018515 | DirAcc 0.417
+[2025-09-30 18:31:59] INFO - Fold 21 | train 3200 | test 120 | RMSE 0.009755 | MAE 0.007554 | DirAcc 0.483
+[2025-09-30 18:32:05] INFO - Fold 22 | train 3320 | test 120 | RMSE 0.008836 | MAE 0.007383 | DirAcc 0.567
+[2025-09-30 18:32:12] INFO - Fold 23 | train 3440 | test 120 | RMSE 0.007934 | MAE 0.006282 | DirAcc 0.483
+[2025-09-30 18:32:18] INFO - Fold 24 | train 3560 | test 120 | RMSE 0.008915 | MAE 0.006478 | DirAcc 0.483
+[2025-09-30 18:32:25] INFO - Fold 25 | train 3680 | test 120 | RMSE 0.021108 | MAE 0.013257 | DirAcc 0.500
+[2025-09-30 18:32:32] INFO - Fold 26 | train 3800 | test 109 | RMSE 0.007920 | MAE 0.006376 | DirAcc 0.531
+[2025-09-30 18:32:32] INFO - Saved predictions to data\artifacts\walkforward\predictions.csv
+[2025-09-30 18:32:32] INFO - Aggregate regression metrics: {'mse_mean': 0.00017325275732346174, 'mse_std': 0.0001266048283693507, 'rmse_mean': 0.012327880499116381, 'rmse_std': 0.004703952009947224, 'mae_mean': 0.009705199923614237, 'mae_std': 0.003699758725881936, 'r2_mean': -1.0542193197615768, 'r2_std': 1.5275408575514005, 'corr_pearson_mean': -0.019422497018933924, 'corr_pearson_std': 0.15512003981689584, 'corr_spearman_mean': -0.02831723490259593, 'corr_spearman_std': 0.139800047166408, 'directional_accuracy_mean': 0.4924963857772575, 'directional_accuracy_std': 0.06988619149987572, 'total_observations': 1549, 'folds': 26}
+[2025-09-30 19:01:45] INFO - Fold 1 | train 800 | test 120 | RMSE 0.095086 | MAE 0.080214 | DirAcc 0.450
+[2025-09-30 19:01:50] INFO - Fold 2 | train 920 | test 120 | RMSE 0.057452 | MAE 0.049304 | DirAcc 0.417
+[2025-09-30 19:01:54] INFO - Fold 3 | train 1040 | test 120 | RMSE 0.127642 | MAE 0.107201 | DirAcc 0.433
+[2025-09-30 19:02:00] INFO - Fold 4 | train 1160 | test 120 | RMSE 0.091772 | MAE 0.075521 | DirAcc 0.500
+[2025-09-30 19:02:05] INFO - Fold 5 | train 1280 | test 120 | RMSE 0.078660 | MAE 0.063893 | DirAcc 0.483
+[2025-09-30 19:02:12] INFO - Fold 6 | train 1400 | test 120 | RMSE 0.055610 | MAE 0.044962 | DirAcc 0.450
+[2025-09-30 19:02:18] INFO - Fold 7 | train 1520 | test 120 | RMSE 0.087381 | MAE 0.078243 | DirAcc 0.517
+[2025-09-30 19:02:25] INFO - Fold 8 | train 1640 | test 120 | RMSE 0.090113 | MAE 0.082658 | DirAcc 0.593
+[2025-09-30 19:02:33] INFO - Fold 9 | train 1760 | test 120 | RMSE 0.076820 | MAE 0.065148 | DirAcc 0.600
+[2025-09-30 19:02:41] INFO - Fold 10 | train 1880 | test 120 | RMSE 0.082304 | MAE 0.073079 | DirAcc 0.600
+[2025-09-30 19:02:49] INFO - Fold 11 | train 2000 | test 120 | RMSE 0.098661 | MAE 0.086986 | DirAcc 0.583
+[2025-09-30 19:02:58] INFO - Fold 12 | train 2120 | test 120 | RMSE 0.079708 | MAE 0.064096 | DirAcc 0.467
+[2025-09-30 19:03:08] INFO - Fold 13 | train 2240 | test 120 | RMSE 0.057224 | MAE 0.044626 | DirAcc 0.467
+[2025-09-30 19:03:17] INFO - Fold 14 | train 2360 | test 120 | RMSE 0.061731 | MAE 0.052471 | DirAcc 0.333
+[2025-09-30 19:03:27] INFO - Fold 15 | train 2480 | test 120 | RMSE 0.097970 | MAE 0.082280 | DirAcc 0.450
+[2025-09-30 19:03:38] INFO - Fold 16 | train 2600 | test 120 | RMSE 0.069755 | MAE 0.059649 | DirAcc 0.550
+[2025-09-30 19:03:50] INFO - Fold 17 | train 2720 | test 120 | RMSE 0.034069 | MAE 0.026951 | DirAcc 0.600
+[2025-09-30 19:04:01] INFO - Fold 18 | train 2840 | test 120 | RMSE 0.054411 | MAE 0.043536 | DirAcc 0.383
+[2025-09-30 19:04:14] INFO - Fold 19 | train 2960 | test 120 | RMSE 0.064084 | MAE 0.052623 | DirAcc 0.550
+[2025-09-30 19:04:28] INFO - Fold 20 | train 3080 | test 120 | RMSE 0.061937 | MAE 0.052247 | DirAcc 0.550
+[2025-09-30 19:04:41] INFO - Fold 21 | train 3200 | test 120 | RMSE 0.056419 | MAE 0.046966 | DirAcc 0.567
+[2025-09-30 19:04:54] INFO - Fold 22 | train 3320 | test 120 | RMSE 0.035861 | MAE 0.029581 | DirAcc 0.600
+[2025-09-30 19:05:07] INFO - Fold 23 | train 3440 | test 120 | RMSE 0.086137 | MAE 0.075946 | DirAcc 0.467
+[2025-09-30 19:05:20] INFO - Fold 24 | train 3560 | test 120 | RMSE 0.074231 | MAE 0.064775 | DirAcc 0.567
+[2025-09-30 19:05:34] INFO - Fold 25 | train 3680 | test 120 | RMSE 0.121738 | MAE 0.118054 | DirAcc 0.500
+[2025-09-30 19:05:48] INFO - Fold 26 | train 3800 | test 109 | RMSE 0.079633 | MAE 0.073395 | DirAcc 0.469
+[2025-09-30 19:05:49] INFO - Saved predictions to data\artifacts\walkforward\predictions.csv
+[2025-09-30 19:05:49] INFO - Aggregate regression metrics: {'mse_mean': 0.006270346384312154, 'mse_std': 0.003657737438050222, 'rmse_mean': 0.07601577604530209, 'rmse_std': 0.0226191534678983, 'mae_mean': 0.06516941310390163, 'mae_std': 0.021463042541214006, 'r2_mean': -110.65444546106818, 'r2_std': 115.46944901651497, 'corr_pearson_mean': 0.02770752490528285, 'corr_pearson_std': 0.10678125041697985, 'corr_spearman_mean': 0.04070486067340352, 'corr_spearman_std': 0.10944882344814802, 'directional_accuracy_mean': 0.5056131318237855, 'directional_accuracy_std': 0.07383981383160618, 'total_observations': 1549, 'folds': 26}
+[2025-09-30 19:41:18] INFO - Fold 1 | train 800 | test 120 | RMSE 0.282379 | MAE 0.263600 | DirAcc 0.583
+[2025-09-30 19:41:22] INFO - Fold 2 | train 920 | test 120 | RMSE 0.093863 | MAE 0.076527 | DirAcc 0.533
+[2025-09-30 19:41:27] INFO - Fold 3 | train 1040 | test 120 | RMSE 0.113678 | MAE 0.096903 | DirAcc 0.550
+[2025-09-30 19:41:31] INFO - Fold 4 | train 1160 | test 120 | RMSE 0.094235 | MAE 0.077010 | DirAcc 0.433
+[2025-09-30 19:41:37] INFO - Fold 5 | train 1280 | test 120 | RMSE 0.083918 | MAE 0.062869 | DirAcc 0.517
+[2025-09-30 19:41:42] INFO - Fold 6 | train 1400 | test 120 | RMSE 0.062583 | MAE 0.049879 | DirAcc 0.500
+[2025-09-30 19:41:48] INFO - Fold 7 | train 1520 | test 120 | RMSE 0.094370 | MAE 0.078194 | DirAcc 0.533
+[2025-09-30 19:41:55] INFO - Fold 8 | train 1640 | test 120 | RMSE 0.078801 | MAE 0.067093 | DirAcc 0.576
+[2025-09-30 19:42:02] INFO - Fold 9 | train 1760 | test 120 | RMSE 0.174764 | MAE 0.168653 | DirAcc 0.433
+[2025-09-30 19:42:09] INFO - Fold 10 | train 1880 | test 120 | RMSE 0.146659 | MAE 0.132900 | DirAcc 0.417
+[2025-09-30 19:42:17] INFO - Fold 11 | train 2000 | test 120 | RMSE 0.079195 | MAE 0.061377 | DirAcc 0.517
+[2025-09-30 19:42:26] INFO - Fold 12 | train 2120 | test 120 | RMSE 0.086461 | MAE 0.069730 | DirAcc 0.600
+[2025-09-30 19:42:34] INFO - Fold 13 | train 2240 | test 120 | RMSE 0.153054 | MAE 0.143156 | DirAcc 0.467
+[2025-09-30 19:42:43] INFO - Fold 14 | train 2360 | test 120 | RMSE 0.047072 | MAE 0.038249 | DirAcc 0.467
+[2025-09-30 19:42:53] INFO - Fold 15 | train 2480 | test 120 | RMSE 0.253908 | MAE 0.222476 | DirAcc 0.417
+[2025-09-30 19:43:03] INFO - Fold 16 | train 2600 | test 120 | RMSE 0.069776 | MAE 0.058002 | DirAcc 0.467
+[2025-09-30 19:43:14] INFO - Fold 17 | train 2720 | test 120 | RMSE 0.050607 | MAE 0.041233 | DirAcc 0.500
+[2025-09-30 19:43:25] INFO - Fold 18 | train 2840 | test 120 | RMSE 0.158670 | MAE 0.152317 | DirAcc 0.350
+[2025-09-30 19:43:36] INFO - Fold 19 | train 2960 | test 120 | RMSE 0.082131 | MAE 0.068308 | DirAcc 0.483
+[2025-09-30 19:43:48] INFO - Fold 20 | train 3080 | test 120 | RMSE 0.132516 | MAE 0.119424 | DirAcc 0.433
+[2025-09-30 19:44:00] INFO - Fold 21 | train 3200 | test 120 | RMSE 0.070498 | MAE 0.057755 | DirAcc 0.550
+[2025-09-30 19:44:12] INFO - Fold 22 | train 3320 | test 120 | RMSE 0.044926 | MAE 0.035833 | DirAcc 0.450
+[2025-09-30 19:44:25] INFO - Fold 23 | train 3440 | test 120 | RMSE 0.124765 | MAE 0.119830 | DirAcc 0.483
+[2025-09-30 19:44:39] INFO - Fold 24 | train 3560 | test 120 | RMSE 0.102429 | MAE 0.089761 | DirAcc 0.617
+[2025-09-30 19:44:52] INFO - Fold 25 | train 3680 | test 120 | RMSE 0.111760 | MAE 0.100707 | DirAcc 0.500
+[2025-09-30 19:45:08] INFO - Fold 26 | train 3800 | test 109 | RMSE 0.094467 | MAE 0.090971 | DirAcc 0.469
+[2025-09-30 19:45:08] INFO - Saved predictions to data\artifacts\walkforward\predictions.csv
+[2025-09-30 19:45:08] INFO - Aggregate regression metrics: {'mse_mean': 0.01552719255562372, 'mse_std': 0.018364541911088966, 'rmse_mean': 0.1110571019472845, 'rmse_std': 0.05763031467207114, 'mae_mean': 0.0977983109888366, 'mae_std': 0.055812353842661484, 'r2_mean': -253.63055785078387, 'r2_std': 381.1153061314286, 'corr_pearson_mean': -0.03734547207924259, 'corr_pearson_std': 0.1361901834224247, 'corr_spearman_mean': -0.02660423617584338, 'corr_spearman_std': 0.1363074244132089, 'directional_accuracy_mean': 0.49406380544395073, 'directional_accuracy_std': 0.06333487169394653, 'total_observations': 1549, 'folds': 26}
